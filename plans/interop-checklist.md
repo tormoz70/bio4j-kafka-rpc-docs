@@ -92,4 +92,4 @@ Use this checklist before declaring a Go phase complete. All scenarios assume wi
 | P4 | 2026-09-02 | Scalable stream test |
 | P5 | 2026-09-02 | protoc-gen-kafka-rpc-go + Greeter example |
 
-Cross-language Java↔Go Greeter (items 1–2) — run manually with shared Kafka + Java example app.
+Cross-language Java↔Go Greeter (items 1–2) — run with [bio4j-kafka-rpc-go/example/interop](https://github.com/tormoz70/bio4j-kafka-rpc-go/tree/main/example/interop) + Java example app.
