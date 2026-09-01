@@ -179,11 +179,11 @@ Typed stubs from `.proto` arrive in P5.
 
 | Phase | Status |
 |-------|--------|
-| P0 | Not started (skeleton repo only) |
-| P1 | Not started |
-| P2 | Not started |
-| P3 | Not started |
-| P4 | Not started |
-| P5 | Not started |
+| P0 | Done — unary channel/server, headers, kfake tests, CI |
+| P1 | Done — oneway Send, server contract |
+| P2 | Done — ordered StreamSink/StreamingCall |
+| P3 | Done — healthcheck, idle timeout, orphan cleanup |
+| P4 | Done — Scalable streams, maxConcurrentStreams, in-flight backpressure |
+| P5 | Done — `protoc-gen-kafka-rpc-go`, Greeter example |
 
 Update this table as phases complete.

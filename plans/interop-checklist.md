@@ -85,9 +85,11 @@ Use this checklist before declaring a Go phase complete. All scenarios assume wi
 
 | Phase | Date | Notes |
 |-------|------|-------|
-| P0 | | |
-| P1 | | |
-| P2 | | |
-| P3 | | |
-| P4 | | |
-| P5 | | |
+| P0 | 2026-09-02 | Go unit + kfake integration tests |
+| P1 | 2026-09-02 | Oneway Send + server null handler |
+| P2 | 2026-09-02 | Ordered stream interop tests |
+| P3 | 2026-09-02 | Healthcheck not-found test |
+| P4 | 2026-09-02 | Scalable stream test |
+| P5 | 2026-09-02 | protoc-gen-kafka-rpc-go + Greeter example |
+
+Cross-language Java↔Go Greeter (items 1–2) — run manually with shared Kafka + Java example app.
